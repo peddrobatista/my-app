@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
+import { BotoesComponent } from './components/botoes/botoes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BotoesComponent
   ],
   imports: [
     BrowserModule,
