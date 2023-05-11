@@ -11,11 +11,14 @@ import {MatIconModule} from '@angular/material/icon';
 import { BotoesComponent } from './components/botoes/botoes.component';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BotoesComponent
+    BotoesComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
