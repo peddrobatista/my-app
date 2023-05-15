@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    min-height: 100vh;
+}
+.home .title {
+    font-size: 3rem;
+    font-weight: 300;
+}
+.home .subtitle {
+    font-size: 1.1rem;
+}

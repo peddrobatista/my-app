@@ -1,9 +1,8 @@
 .container {
     display: flex;
     align-items: center;
-    min-height: 100vh;
     justify-content: center;
-    border: 1px solid red;
+    min-height: 100vh;
     border-radius: 15px;
 }
 .content {
